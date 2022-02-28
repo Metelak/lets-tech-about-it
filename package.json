@@ -1,0 +1,29 @@
+{
+  "name": "lets-tech-about-it",
+  "version": "1.0.0",
+  "description": "tech blog",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Metelak/lets-tech-about-it.git"
+  },
+  "author": "Metelak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Metelak/lets-tech-about-it/issues"
+  },
+  "homepage": "https://github.com/Metelak/lets-tech-about-it#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express-handlebars": "^6.0.2",
+    "express-session": "^1.17.2",
+    "express-session-sequelize": "^2.3.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.17.0"
+  }
+}
